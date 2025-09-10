@@ -1,13 +1,16 @@
 .intro {
-  width: 830px;
+  width: 100%;
+  max-width: 830px;
   margin: 0;
   padding-top: 92px;
   padding-left: 148px;
+  box-sizing: border-box;
 }
 
 .intro__title {
   margin: 0;
-  width: 830px;
+  width: 100%;
+  max-width: 830px;
   font-family: Inter;
   font-weight: 900;
   font-size: 54px;
@@ -17,7 +20,8 @@
 .intro__phrase {
   margin: 0;
   padding-top: 39.98px;
-  width: 738px;
+  width: 100%;
+  max-width: 738px;
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -27,7 +31,8 @@
 .intro__quote {
   margin: 0;
   padding-top: 10px;
-  width: 732px;
+  width: 100%;
+  max-width: 732px;
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -38,7 +43,8 @@
 .intro__explanation {
   margin: 0;
   padding-top: 31.99px;
-  width: 722px;
+  width: 100%;
+  max-width: 722px;
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
@@ -47,50 +53,60 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     padding-left: 24px;
   }
   .intro__title {
-    width: 707px;
+    width: 100%;
+    max-width: 707px;
     padding-top: 90px;
     font-size: 45px;
     line-height: 49px;
   }
   .intro__phrase {
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     padding-top: 50px;
   }
   .intro__quote {
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     padding: 0;
   }
   .intro__explanation {
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     padding-top: 32px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .intro {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     padding-left: 16px;
   }
   .intro__title {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     padding-top: 64px;
     font-size: 32px;
     line-height: 35px;
   }
   .intro__phrase {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     padding-top: 40px;
   }
   .intro__quote {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     padding-top: 10px;
   }
   .intro__explanation {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     padding-top: 32px;
   }
 }
