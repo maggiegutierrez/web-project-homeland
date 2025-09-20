@@ -1,0 +1,27 @@
+.image {
+  width: 100%;
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.image__media {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .image {
+    width: 100%;
+    max-width: 768px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .image {
+    width: 100%;
+    max-width: 320px;
+    padding-top: 40px;
+  }
+}

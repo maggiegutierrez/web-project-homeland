@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  max-width: 194px;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    padding-top: 64px;
+  }
+  .footer__copyright {
+    line-height: 14px;
+  }
+}
