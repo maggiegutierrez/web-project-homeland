@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .image {
   width: 100%;
   max-width: 984px;
@@ -25,3 +26,32 @@
     padding-top: 40px;
   }
 }
+=======
+.image {
+  width: 100%;
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.image__media {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .image {
+    width: 100%;
+    max-width: 768px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .image {
+    width: 100%;
+    max-width: 320px;
+    padding-top: 40px;
+  }
+}
+>>>>>>> 0f3e76b09da3a009768583b63f150a950ba7c92e

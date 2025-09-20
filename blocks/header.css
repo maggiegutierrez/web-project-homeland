@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
   display: flex;
   justify-content: center;
@@ -24,3 +25,31 @@
     height: 52px;
   }
 }
+=======
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  margin-top: 34px;
+  width: 254.83px;
+  height: 68.94px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    margin-top: 30px;
+    width: 254px;
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .header__logo {
+    margin-top: 20px;
+    width: 188px;
+    height: 52px;
+  }
+}
+>>>>>>> 0f3e76b09da3a009768583b63f150a950ba7c92e
