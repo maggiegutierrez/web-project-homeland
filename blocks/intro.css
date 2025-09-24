@@ -83,29 +83,25 @@
 
 @media screen and (max-width: 544px) {
   .intro {
-    width: 100%;
     max-width: 288px;
     padding-left: 16px;
+    padding-top: 64px;
   }
   .intro__title {
-    width: 100%;
     max-width: 288px;
-    padding-top: 64px;
     font-size: 32px;
     line-height: 35px;
   }
   .intro__phrase {
-    width: 100%;
     max-width: 288px;
     padding-top: 40px;
+    line-height: 30px;
   }
   .intro__quote {
-    width: 100%;
     max-width: 288px;
     padding-top: 10px;
   }
   .intro__explanation {
-    width: 100%;
     max-width: 288px;
     padding-top: 32px;
   }
