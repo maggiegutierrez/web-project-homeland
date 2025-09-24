@@ -56,11 +56,11 @@
     width: 100%;
     max-width: 720px;
     padding-left: 24px;
+    padding-top: 90px;
   }
   .intro__title {
     width: 100%;
     max-width: 707px;
-    padding-top: 90px;
     font-size: 45px;
     line-height: 49px;
   }

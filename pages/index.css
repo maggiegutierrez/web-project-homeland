@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page.css);
@@ -7,13 +6,5 @@
 @import url(../blocks/image.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
-=======
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-@import url(../blocks/page.css);
-@import url(../blocks/header.css);
-@import url(../blocks/lead.css);
-@import url(../blocks/image.css);
-@import url(../blocks/intro.css);
-@import url(../blocks/footer.css);
->>>>>>> 0f3e76b09da3a009768583b63f150a950ba7c92e
+@import url(../blocks/photo-grid.css);
+@import url(../blocks/places.css);
