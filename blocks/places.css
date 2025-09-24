@@ -10,7 +10,7 @@
   padding-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: auto 460px auto;
   grid-template-areas:
     "title artits"
     "image description"
@@ -51,35 +51,36 @@
 .place__button {
   grid-area: button;
   margin: 0;
-  opacity: 1;
-  background: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(to right, #0278fe 0%, #003a7b 99.98%);
   border-radius: 4px;
   width: 289px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 13px 13px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 
 .place__button:hover {
-  opacity: 0.5;
+  background: linear-gradient(
+    to right,
+    rgb(2, 120, 254, 0.25) 0%,
+    rgb(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 .place__button-text {
   color: white;
-  text-decoration: none;
   font-weight: 600;
   font-size: 18px;
-  opacity: 1;
 }
 
 .place__artists {
   grid-area: artits;
   width: 100%;
   max-width: 456px;
-  height: 100%;
-  max-height: 67px;
+  align-self: end;
 }
 
 .place__artists-title {
@@ -119,6 +120,7 @@
     padding-bottom: 72px;
     column-gap: 28px;
     grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 340px auto;
   }
 
   .place__title {
@@ -156,6 +158,7 @@
     padding-bottom: 50px;
     row-gap: 30px;
     grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas:
       "title"
       "artits"
