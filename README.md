@@ -5,3 +5,4 @@ Esta página en sí se refiere a los empleados y estudiantes de TripleTen donde 
 Para este proyecto usamos FIGMA como nuevo brief y proveedor de recursos; HTML y CSS como lenguajes.
 
 Se añade de igual forma varias secciones usando enlances, degradados de colores y la organización de los elementos se lleva a cabo con 'display: grid;'.
+https://maggiegutierrez.github.io/web_project_homeland/
